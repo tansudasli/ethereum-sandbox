@@ -1,20 +1,18 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.4.17;
 
 contract Inbox {
 
-    static public message;
+//    creates getMessage automatically due to public
+    string public _message;
 
-//    constructor
+    //    constructor
     function Inbox(string message) public{
-        this.message = message;
+        _message = message;
 
     }
 
     function setMessage(string message) public {
-        this.message = message;
+        _message = message;
     }
 
-    function getMessage() public view returns (string) {
-        return this.message;
-    }
 }
