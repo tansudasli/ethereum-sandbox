@@ -11,25 +11,3 @@ const sourceOfInbox = fs.readFileSync(inboxPath, 'utf-8');
 module.exports = solc.compile(sourceOfInbox, 1).contracts[':Inbox'];
 
 
-/** sample format of output. We will access interface and bytcode from Inbox.test.js !
-{
-  contracts: {
-    ':Inbox': {
-      assembly: [Object],
-      bytecode: '608060405234 ...',
-      functionHashes: [Object],
-      gasEstimates: [Object],
-      interface: '[{"constant":true,"inputs":[],"name":"_message","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"message","type":"string"}],"name":"setMessage","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"message","type":"string"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]',
-      metadata: '{"compiler":{"version":"0.4.25+commit.59dbf8f1"},"language":"Solidity","output":{"abi":[{"constant":true,"inputs":[],"name":"_message","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"message","type":"string"}],"name":"setMessage","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"message","type":"string"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}],"devdoc":{"methods":{}},"userdoc":{"methods":{}}},"settings":{"compilationTarget":{"":"Inbox"},"evmVersion":"byzantium","libraries":{},"optimizer":{"enabled":true,"runs":200},"remappings":[]},"sources":{"":{"keccak256":"0x9cfbc32f36bcc39cbbf1615aeced2c867a230cde826ba78429bf21ed846789e5","urls":["bzzr://f6b6f8ad54119d37b2af7e11c9fb684593dd430504b1b223d9e96484ea30e7fb"]}},"version":1}',
-      opcodes: 'PUSH1 0x80 PUSH1 0x40 ...',
-      runtimeBytecode: '60806040526004361061004b57 ...',
-      srcmap: '26:283:0: ...',
-      srcmapRuntime: '26:283:0: ...'
-    }
-  },
-  sourceList: [ '' ],
-  sources: { '': { AST: [Object] } }
-}
-
- *
- */
