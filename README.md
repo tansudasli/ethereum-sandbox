@@ -30,7 +30,8 @@ to **deploy Rinkeby Test Network**
     - copy endpoint of Rinkeby !! Not main network :)
 4. Need truffle-hdwallet-provider this time. `npm i --save @truffle/hdwallet-provider`
 5. Run `node deploy.js`, then get deployed address
-6. Search that address in `https://rinkeby.etherscan.io/`
+6. Search that address in `https://rinkeby.etherscan.io/` or
+in `remix.ethereum.org`, change Environment to `injected Web3`. Then At Address, enter deployed address to interact w/ deployed contract
 
 
 
