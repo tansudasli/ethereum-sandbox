@@ -25,6 +25,10 @@ You need: other things, below. **basic-smart-contract** project was created like
 to **deploy Rinkeby Test Network**
 1. Initialize *MetaMask* account in chrome browser. Save your Mnemonic!
 2. To get free Ether into your MetaMask account, [use this url](https://faucet.rinkeby.io/) 
+3. Create an account on infura.io to connect specific node on Rinkeby network.
+    - create a project.
+    - copy endpoint of Rinkeby !! Not main network :)
+4. Need truffle-hdwallet-provider this time. `npm i --save @truffle/hdwallet-provider`
 
 
 
