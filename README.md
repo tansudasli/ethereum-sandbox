@@ -11,7 +11,7 @@ to **start quickly**,
    - IDE, 
    - Testing and 
    - Ethereum VM inside.
-- Select *Rinkeby Test Network* . Whick comes predefined accounts loaded w/ ETHER.
+- Select *Rinkeby Test Network* . Which comes predefined accounts loaded w/ ETHER.
 
 
 to **start on your local** and **write tests** and manually create Ethereum projects, 
