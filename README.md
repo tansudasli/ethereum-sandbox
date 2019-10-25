@@ -26,3 +26,6 @@ to **start on your local* and easily create Ethereum projects, You need:
 other things, if you need to initialize *manually*, project structure
 - `npm init` to initialize manually package.json
 - `npm install --save solc@0.4.25` solidity compiler
+- `npm i -save mocha` for testing contracts
+- `npm i -save web3` for web3 framework
+- `npm i --save ganache-cli` for ganache local ethereum vm

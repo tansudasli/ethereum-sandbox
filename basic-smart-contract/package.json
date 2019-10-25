@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "solc": "^0.4.25"
+    "ganache-cli": "^6.7.0",
+    "mocha": "^6.2.2",
+    "solc": "^0.4.25",
+    "web3": "^1.2.2"
   }
 }
