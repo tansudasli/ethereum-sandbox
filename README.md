@@ -6,5 +6,19 @@
 ## How to start
 
 1. Initialize *MetaMask* account in chrome browser.
-2. Select *Rinkeby Test Network*
-3. To get free Ether, [use this url](https://faucet.rinkeby.io/) 
+2. To get free Ether into your own account (defined in MetaMask), [use this url](https://faucet.rinkeby.io/) 
+
+to **start quickly**,
+
+- Copy-Paste Inbox.sol content into [Remix IDE](remix.ethereum.org) which covers,
+   - Free Accounts w/ ETHER, 
+   - IDE, 
+   - Testing and 
+   - Ethereum VM inside.
+- Select *Rinkeby Test Network* 
+
+to **start on local* and easily create Blockchain projects**, You need:
+
+- install **ganache-cli** for _local Ethereum VM_ `npm install -g ganache-cli`.
+    - Run `ganache-cli` to open server on 127.0.0.1:8545 !
+- install **truffle** for easy development `npm install truffle -g`
