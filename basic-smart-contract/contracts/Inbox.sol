@@ -6,7 +6,7 @@ contract Inbox {
     string public _message;
 
     //    constructor
-    function Inbox(string message) public{
+    constructor(string message) public{
         _message = message;
 
     }
