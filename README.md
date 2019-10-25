@@ -29,6 +29,8 @@ to **deploy Rinkeby Test Network**
     - create a project.
     - copy endpoint of Rinkeby !! Not main network :)
 4. Need truffle-hdwallet-provider this time. `npm i --save @truffle/hdwallet-provider`
+5. Run `node deploy.js`, then get deployed address
+6. Search that address in `https://rinkeby.etherscan.io/`
 
 
 
