@@ -17,7 +17,7 @@ to **start quickly**,
    - Ethereum VM inside.
 - Select *Rinkeby Test Network* 
 
-to **start on local* and easily create Blockchain projects**, You need:
+to **start on your local* and easily create Ethereum projects, You need:
 
 - install **ganache-cli** for _local Ethereum VM_ `npm install -g ganache-cli`.
     - Run `ganache-cli` to open server on 127.0.0.1:8545 !
