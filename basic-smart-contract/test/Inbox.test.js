@@ -11,6 +11,7 @@ const {interface, bytecode} = require('../compile');
 let accounts;
 let inbox;
 const initialMessage = 'Hi, there';
+const aMessage = 'Hi, Tansu';
 
 mocha.beforeEach(async () => {
 
@@ -51,10 +52,21 @@ mocha.describe('Inbox', () => {
 
     mocha.it('has a default message ', async ()  => {
 
-        // call function vs send a transaction to function
+        // call() function to read contract or send() a transaction to function to modify contract !
         const message = await inbox.methods._message().call();
 
         assert.equal(message, initialMessage);
     });
 
+    mocha.it('can set a message ', async ()  => {
+
+        // call() function to read contract or send() a transaction to function to modify contract !
+        await inbox.methods.setMessage(aMessage).send({
+            from: accounts[0]
+        });  // contract will be modified!
+
+        const message = await inbox.methods._message().call();
+
+        assert.equal(message, aMessage);
+    });
 });
