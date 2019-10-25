@@ -1,0 +1,17 @@
+{
+  "name": "basic-smart-contract",
+  "version": "1.0.0",
+  "description": "basic smart contract",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.4.25"
+  }
+}
