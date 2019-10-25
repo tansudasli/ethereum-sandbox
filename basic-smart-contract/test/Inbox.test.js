@@ -32,7 +32,7 @@ mocha.beforeEach(async () => {
 
 });
 
-// for contract structure, check contract-structure.txt fil
+// for contract structure, check contract-structure.txt file
 
 mocha.describe('Inbox', () => {
 
